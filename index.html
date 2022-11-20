@@ -9,10 +9,22 @@
 </head>
 <body>
     <main>
-        <div class="container">
-                <button class="btn">
-                  Coucou Pierre!
-                </button>
+      <form class="form">
+        <h1 class="form__heading">Contact me</h1>
+        <div class="form__field">
+        <label for="contact-name">name</label>
+        <input type="text" name="contact-name" id="contact-name">
+        </div>
+        <div class="form__field">
+        <label for="contact-email">email</label>
+        <input type="email" name="contact-email" id="contact-email">
+        </div>
+        <div class="form__field">
+        <label for="mssg">message</label>
+        <textarea name="mssg" id="mssg" cols="30" rows="10"></textarea>
+        </div>
+        <button class="btn btn--full-width">Submit</button>
+        </form>
            
          
         </div>

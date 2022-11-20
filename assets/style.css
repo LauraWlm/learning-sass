@@ -1,7 +1,14 @@
 .btn {
   background-color: #001534;
   color: #15DEA5;
-  border-radius: 3rem;
-  width: 100%;
   padding: 1.5rem;
+}
+
+.btn-wide {
+  width: 100%;
+}
+
+/*And ...*/
+.btn-rounded {
+  border-radius: 3rem;
 }/*# sourceMappingURL=style.css.map */
