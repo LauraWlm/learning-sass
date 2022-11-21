@@ -1,12 +1,18 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    height: vh;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    align-items: center;
+
+}
+
 
 .photo {
     display: inline-block;
-    background-color: #7b38d8;
-    border-radius: 10px;
     border: 4px double #cccccc;
     color: #eeeeee;
     text-align: center;
