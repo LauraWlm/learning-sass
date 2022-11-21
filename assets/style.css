@@ -1,17 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .container {
+  border-color: gray;
   width: 500px;
   height: 700px;
 }
@@ -21,9 +18,35 @@ img {
 }
 
 .date {
-  border: #ed4a3c;
   background-color: #ed4a3c;
-  width: 3rem;
+  border: 1rem;
+}
+
+.photo {
   border-radius: 50%;
-  padding: 20px;
+  background-color: #ed4a3c;
+  border: 1rem;
+}
+
+.title {
+  text-align: left;
+  padding-left: 1.1rem;
+  padding: 1.1rem;
+}
+
+.title h2 {
+  color: #ed4a3c;
+  font-weight: lighter;
+}
+
+.text {
+  text-align: left;
+  padding-left: 1.1rem;
+  padding: 1.1rem;
+}
+
+.endpage {
+  text-align: left;
+  padding-left: 1.1rem;
+  padding: 1.2rem;
 }/*# sourceMappingURL=style.css.map */

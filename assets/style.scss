@@ -1,18 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    border: 3px solid rgba(255, 255, 255, .3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container {
-    border-color: ;
+    border-color: gray;
     width: 500px;
     height: 700px;
 }
@@ -22,14 +18,37 @@ img {
 }
 
 .date {
-    border: #ed4a3c;
     background-color: #ed4a3c;
+    border: 1rem;
+
+}
+
+.photo {
     border-radius: 50%;
+    background-color: #ed4a3c;
+    border: 1rem;
 }
 
 .title {
     text-align: left;
-
+    padding-left: 1.10rem;
+    padding: 1.10rem;
 }
 
-.photo {}
+.title h2 {
+    color: #ed4a3c;
+    font-weight: lighter;
+}
+
+.text {
+    text-align: left;
+    padding-left: 1.10rem;
+    padding: 1.10rem;
+}
+
+.endpage {
+    text-align: left;
+    padding-left: 1.10rem;
+    padding: 1.20rem;
+
+}
