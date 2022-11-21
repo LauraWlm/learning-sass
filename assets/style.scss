@@ -14,7 +14,7 @@ body {
 }
 
 .container:hover {
-    box-shadow: 20px 20px 40px -6px rgba(.2, .2, .2, .2);
+    box-shadow: 2rem 2rem 2rem -0.6rem rgba(.2, .2, .2, .2);
 }
 
 .top {
@@ -26,8 +26,8 @@ body {
     .date {
         background-color: #ed4a3c;
         border-radius: 50%;
-        width: 50px;
-        height: 50px;
+        width: 2rem;
+        height: 2rem;
         font-size: 1.1rem;
         color: white;
         text-align: center;
