@@ -1,4 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,75 +14,90 @@ body {
 
 .container {
   position: relative;
-  height: 23em;
-  width: 20em;
-  overflow: hidden;
+  border: 0.1rem solid rgba(121, 120, 120, 0.097);
+  height: 20rem;
+  width: 18rem;
 }
 
 .container:hover {
-  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  box-shadow: 2rem 2rem 2rem -0.6rem rgba(0, 0, 0, 0.2);
 }
 
-.top img {
+.top {
+  background-image: url(/assets/picture1.jpg);
+  background-position: center;
+  background-size: cover;
   width: 100%;
+  height: 11.5rem;
 }
 .top .date {
   background-color: #ed4a3c;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  font-size: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
   color: white;
   text-align: center;
   position: absolute;
   top: 1rem;
-  left: 15rem;
-  padding: 0.5rem;
+  left: 14rem;
+  padding: 0.7rem;
 }
 
 .informations {
-  position: relative;
-  transition: all 0.5;
+  width: 100%;
+  background-color: white;
+  height: 4.6rem;
+  text-align: left;
+  transition: all 0.3s;
 }
-.informations .photo {
-  border: 10px solid #ed4a3c;
+.informations span {
+  border: 0.5rem solid #ed4a3c;
   background-color: #ed4a3c;
   color: white;
   text-align: center;
   width: 5rem;
   font-size: 1rem;
-  position: absolute;
-  top: -3.5rem;
+  position: relative;
+  top: -1.6rem;
 }
-.informations .title {
+.informations h1 {
   text-align: left;
-  margin-top: 1.5rem;
-  margin-left: 1.2rem;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
+  margin-left: 2em;
+  line-height: 1.6rem;
 }
-.informations .title h2 {
+.informations h2 {
   color: #ed4a3c;
-  margin-top: 1rem;
   font-weight: lighter;
-  font-size: 1rem;
-}
-.informations .text {
-  text-align: left;
-  font-size: 1rem;
-  cursor: text;
-  position: absolute;
-  top: 9rem;
+  font-size: 1.1rem;
+  margin-left: 2em;
+  line-height: 3rem;
 }
 
 .informations:hover {
-  transform: translateY(-10vw);
-  background-color: rgb(255, 255, 255);
-  height: 10rem;
+  transform: translateY(-3.5vw);
+}
+
+.text {
+  text-align: left;
+  transition: all 0.3s;
+}
+.text p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 0.8rem;
+  cursor: text;
+  transform: translateY(3rem);
+}
+
+.text:hover {
+  transform: translateY(-3.5vw);
 }
 
 .endpage {
-  margin-left: 1.2rem;
-  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-top: 4rem;
   text-align: left;
   cursor: pointer;
   position: absolute;
@@ -90,8 +111,4 @@ body {
 .endpage i {
   color: rgb(137, 137, 137);
   margin-right: 0.2rem;
-}
-
-* {
-  transition: 0.6s;
 }/*# sourceMappingURL=style.css.map */
